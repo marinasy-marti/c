@@ -2,19 +2,25 @@
 
 int main()
 {
-    int age;
-
-    // printf("Enter your age: ");
-    // scanf("%d", &age);
-
-    // printf("You are %d years old\n", age);
-
-    // this is a comment
-    /* this
-        is
-        a
-        multiline
-        comment
+    // basic opération
+    /*
+        addition:
+        substraction:
+        multiplication:
+        division:
+        remainder:´
+        increment:
+        decrement:
     */
+
+    int a, b = 0;
+    int result;
+    a = 5;
+    b = 4;
+
+    result = a + b;
+    result = a - b;
+    result = a * b;
+
     return 0;
 }
