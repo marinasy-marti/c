@@ -61,3 +61,4 @@ Le centre de photocopie facture 0,25 DH pour les 10 premières photocopies, 0,20
 ### Exercice14
 
 Écrire un programme en C qui permet d'afficher le message "Bonsoir" 10 fois. Utilisant la boucle while. ''
+`
