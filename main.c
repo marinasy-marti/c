@@ -22,5 +22,5 @@ int main()
     result = a - b;
     result = a * b;
 
-    return 0;
+        return 0;
 }
