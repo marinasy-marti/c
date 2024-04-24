@@ -2,16 +2,23 @@
 
 int main()
 {
-    int a = 4.33;
-    int b = 0;
-    double restult = a + b;
 
-    // a = 2.5;
+    int age;
 
-    int another_result = a + (int)restult;
+    printf("Enter your age: ");
+    scanf("%d", &age);
+    if (age > 120)
+    {
+        printf("Are you sure you're still alive?");
+    }
+    else if (age >= 18 && age < 120)
+    {
+        printf("you can go to jail");
+    }
+    else
+    {
+        printf("you're still a minor\n");
+    }
 
-    printf("The result is: %lf\n", restult);
-    printf("The another result is: %d\n", another_result);
-    printf("a is: %d\n", a);
     return 0;
 }
