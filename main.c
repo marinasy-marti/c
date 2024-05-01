@@ -2,23 +2,18 @@
 
 int main()
 {
+    // syntax:
+    // tex_condition ? expression1: expresssion2;
+    int age = 16;
+    (age >= 18) ? printf("You can go to jail ") : printf("waiting you are major");
 
-    int age;
+    char operator= '+';
+    int x = 8;
+    int y = 7;
 
-    printf("Enter your age: ");
-    scanf("%d", &age);
-    if (age > 120)
-    {
-        printf("Are you sure you're still alive?");
-    }
-    else if (age >= 18 && age < 120)
-    {
-        printf("you can go to jail");
-    }
-    else
-    {
-        printf("you're still a minor\n");
-    }
+    int result = (operator== '+') ? (x + y) : (x - y);
+
+    printf("\nresult : %i ", result);
 
     return 0;
 }
