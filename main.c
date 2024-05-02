@@ -2,18 +2,38 @@
 
 int main()
 {
-    // syntax:
-    // tex_condition ? expression1: expresssion2;
-    int age = 16;
-    (age >= 18) ? printf("You can go to jail ") : printf("waiting you are major");
+    int number;
+    printf("Enter number between 1 to 7 :  ");
+    scanf("%d", &number);
 
-    char operator= '+';
-    int x = 8;
-    int y = 7;
+    switch (number)
+    {
+    case 1:
+        printf("Monday");
+        break;
+    case 2:
+        printf("Tuesday");
+        break;
+    case 3:
+        printf("Wednesday");
+        break;
+    case 4:
+        printf("Thirsday");
+        break;
+    case 5:
+        printf("Friday");
+        break;
+    case 6:
+        printf("Saturday");
+        break;
+    case 7:
+        printf("Sunday");
+        break;
 
-    int result = (operator== '+') ? (x + y) : (x - y);
-
-    printf("\nresult : %i ", result);
+    default:
+        printf("Invalid value");
+        break;
+    }
 
     return 0;
 }
